@@ -1,0 +1,154 @@
+
+
+.searchbar:focus {
+    outline: none;
+}
+
+
+.header{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+    z-index: 1;
+
+}
+
+.left-section{
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.right-section{
+    width: 250px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    margin-right: 10px;
+
+}
+
+.hamburger{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.yt-logo{
+    height: 20px;
+}
+
+
+.search-logo-button{
+    height: 40px;
+    width: 70px;
+    background-color: rgb(235, 235, 235);
+    border-width: 1px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: solid;
+    border-color: gray;
+    cursor: pointer;
+}
+
+.voice-search-logo-button{
+    
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 100%;
+    border: none;
+    background-color: rgb(235, 235, 235);
+    border-color: gray;
+}
+
+.middle-section{
+    display: flex;
+    align-items: center;
+    flex:1;
+    margin-left: 70px;
+    margin-right: 60px;
+    max-width: 500px;
+}
+
+.searchbar{
+    flex: 1;
+    height: 36px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    font-size: 16px;
+    padding-left: 19px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    width: 0;
+}
+
+.searchbar::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+}
+
+
+.voice-logo{
+    height: 25px;
+}
+
+.searchlogo{
+    height: 30px;
+}
+
+.upload-logo{
+    height: 28px;
+    cursor: pointer; 
+}
+
+.apps-logo{
+    height: 29px;
+    cursor: pointer;
+}
+.notifications-logo{
+    height: 29px;
+    cursor: pointer;
+}
+
+.profile-logo{
+    height: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.notification-number{
+    position: relative;
+}
+
+.number{
+    position: absolute;
+    top: -3px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    font-family: roboto;
+    border-radius: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 13px;
+}
